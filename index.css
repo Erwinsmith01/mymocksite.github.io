@@ -1,0 +1,190 @@
+/*Title-section*/
+body
+{
+    text-align: center;
+}
+#title
+{
+    text-align: left;
+}
+#orderbtn1
+{
+    padding: 2%;
+}
+.navbar-brand
+{
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+    color: #3E54AC;
+}
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+.nav-item
+{
+    padding: 0 18px;
+    font-size: 25px;
+    font-family: 'Montserrat','Playfair display','Merriweather-Light';
+}
+.nav-link
+{
+    color:#655DBB;
+}
+h1
+{
+    font-family: 'Merriweather-Black','Playfair display';
+    font-weight: 900;
+}
+.container-fluid
+{
+    padding: 3% 15%;
+}
+#slogan
+{
+    color:#3E54AC;
+    padding-bottom: 30px;
+}
+.img-thumbnail
+{
+    transform: rotate(15deg);
+}
+/*Feature-section*/
+#features
+{
+    padding: 7% 15%;
+    background-color: #655DBB; 
+}
+.feature-box
+{
+    text-align: center;
+    padding:5%;
+    font-family: 'Montserrat','Playfair display','Merriweather-Light';
+}
+h3
+{
+    font-family: 'Montserrat','Playfair display','Merriweather-Light';
+    font-weight: 700;
+    color:#BFACE2;
+}
+p
+{
+    color: #fff;
+}
+.material-icons.md-60
+{ 
+    font-size: 60px;
+    margin-bottom: 1rem;
+}
+.material-icons.md-60:hover
+{
+    color: #fff;
+}
+/*Product-section*/
+#products
+{
+    padding: 7% 15%;
+    background-color:#ECF2FF;
+    text-align: center;
+}
+.description
+{
+    font-family: 'Montserrat','Playfair display','Merriweather-Light';
+    color: #fff;
+    margin: 0 15% 3% 15%;
+}
+.product-image
+{
+    margin-left: 300px;
+}
+.product-image4
+{
+    margin-left: 330px;
+}
+h2
+{
+    font-family: 'Montserrat','Playfair display','Merriweather-Light';
+    font-weight: 700;
+    color:#BFACE2;
+}
+#carouselExample
+{
+    background-color: #655DBB;
+}
+#contact
+{
+    text-align: center;
+    background-color: #655DBB;
+}
+/*Media-query*/
+@media(max-width:1350px)
+{
+    .product-image
+    {
+        margin-left: 200px;
+    }
+    .product-image4
+    {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 1000px)
+{
+    h1
+    {
+        text-align:center;
+    }
+    .img-thumbnail
+    {
+        transform: rotate(0deg);
+    }
+    .product-image
+    {
+        margin-left: 100px;
+    }
+    .product-image4
+    {
+        margin-left: 100px;
+    }
+}
+@media(max-width:850px)
+{
+    #orderbtn1
+    {
+        margin-left: 180px;
+    }
+    .product-image
+    {
+        margin-left: 130px;
+        margin-top: 10px;
+        max-width: 300px;
+        height: auto;
+    }
+    .product-image4
+    {
+        max-width: 300px;
+        height: auto;   
+        margin-left: 140px;
+    }
+}
+@media(max-width:500px)
+{
+    #orderbtn1
+    {
+        margin-left: 90px;
+    }
+    .product-image
+    {
+        margin-left: 20px;
+        margin-top: 10px;
+        max-width: 300px;
+        height: auto;
+    }
+    .product-image4
+    {
+        max-width: 300px;
+        height: auto;   
+        margin-left: 30px;
+    }
+}
