@@ -188,3 +188,23 @@ h2
         margin-left: 30px;
     }
 }
+@media(max-width:450px)
+{
+    #orderbtn1
+    {
+        margin-left: 80px;
+    }
+    .product-image
+    {
+        margin-left: 12px;
+        margin-top: 10px;
+        max-width: 280px;
+        height: auto;
+    }
+    .product-image4
+    {
+        max-width: 280px;
+        height: auto;   
+        margin-left: 20px;
+    }
+}
